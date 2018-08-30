@@ -1,10 +1,10 @@
 <?php namespace Ignited\Pdf;
 
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
 
 use Ignited\Pdf\PdfFactory;
 
-class PdfServiceProvider extends ServiceProvider {
+class PdfServiceProvider extends IlluminateServiceProvider {
 
 	/**
 	 * Indicates if loading of the provider is deferred.
